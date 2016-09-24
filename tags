@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLUE	Utils/functions.h	8;"	d
+BYTE	Utils/functions.h	14;"	d
+CFLAGS	makefile	/^CFLAGS=-Wall -g$/;"	m
+CYAN	Utils/functions.h	10;"	d
+Data2_t	Utils/functions.h	/^} Data2_t;$/;"	t	typeref:union:__anon2
+Data_t	Utils/functions.h	/^} Data_t;$/;"	t	typeref:union:__anon1
+FUNCTIONS_H	Utils/functions.h	2;"	d
+GREEN	Utils/functions.h	6;"	d
+MAGENTA	Utils/functions.h	9;"	d
+OBJ_FILES	Utils/makefile	/^OBJ_FILES=functions.o$/;"	m
+OUT_FILES	Utils/makefile	/^OUT_FILES=utils.a$/;"	m
+PRINT_ERR_USAGE	Utils/functions.h	15;"	d
+RED	Utils/functions.h	5;"	d
+RESET	Utils/functions.h	11;"	d
+SIZE	Utils/functions.h	13;"	d
+SRC_FILES	Utils/makefile	/^SRC_FILES=functions.c$/;"	m
+YELLOW	Utils/functions.h	7;"	d
+byte	Utils/functions.h	/^    unsigned char byte;$/;"	m	union:__anon1
+copy_wav	Utils/functions.c	/^void copy_wav(FILE **fptr_wav, FILE **fptr_out, int limit)$/;"	f
+decrypt_data	Utils/functions.c	/^void decrypt_data(FILE **fptr_wav, FILE **fptr_out, int size)$/;"	f
+decryption	Utils/functions.c	/^void decryption(char *wav_file, char *out_file)$/;"	f
+encrypt_data	Utils/functions.c	/^void encrypt_data(FILE **fptr_data, FILE **fptr_wav, FILE **fptr_out)$/;"	f
+encryption	Utils/functions.c	/^void encryption(char *data_file, char *wav_file, char *out_file)$/;"	f
+file_exist_check	Utils/functions.c	/^int file_exist_check(char *file)$/;"	f
+get_audio_size	Utils/functions.c	/^int get_audio_size(FILE *fptr)$/;"	f
+get_data_file_size	Utils/functions.c	/^long get_data_file_size(FILE *fptr_data)$/;"	f
+get_embedded_size	Utils/functions.c	/^long get_embedded_size(FILE **fptr, int location)$/;"	f
+insert_size_of_data	Utils/functions.c	/^void insert_size_of_data(int size, FILE **fptr_wav, FILE **fptr_out)$/;"	f
+main	main.c	/^int main ( int argc, char *argv[] )$/;"	f
+open_in_files	Utils/functions.c	/^void open_in_files(FILE **fptr, char *file)$/;"	f
+open_out_files	Utils/functions.c	/^void open_out_files(FILE **fptr, char *file)$/;"	f
+print_help	Utils/functions.c	/^void print_help(char *app)$/;"	f
+word	Utils/functions.h	/^    unsigned int word;$/;"	m	union:__anon2
