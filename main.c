@@ -28,7 +28,7 @@
 int main ( int argc, char *argv[] )
 {
     int i, k;
-    char *inputs[SIZE] = {0};      //[0] = options, [1] = data file, [2] = wav file, [3] = output file.
+    char *inputs[SIZE] = {0};      /* [0] = options, [1] = data file, [2] = wav file, [3] = output file */
 
     /*Save the command line arguments*/
     for (i = 1, k = 1; i < argc; i++)
